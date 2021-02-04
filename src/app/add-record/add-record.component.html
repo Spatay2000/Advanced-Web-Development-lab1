@@ -1,0 +1,26 @@
+<h1>Add record!</h1>
+<div>
+    Logging date:
+        <input type="number">
+    Distance(km):
+        <input type="number">
+    Time(hour):
+        <input type="number">
+
+    <button> Save </button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of users">
+            <td>{{item.date}}</td>
+            <td>{{item.distance}}</td>
+            <td>{{item.time}}</td>
+        </tr>
+    </tbody>
+</table>
