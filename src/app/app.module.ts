@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddRecordComponent } from './add-record/add-record.component';
 import { FormsModule } from '@angular/forms';
+import { MyResultsComponent } from './my-results/my-results.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AddRecordComponent,
+    MyResultsComponent,
       
     
   ],
