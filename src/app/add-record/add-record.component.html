@@ -1,26 +1,16 @@
 <h1>Add record</h1>
 <div>
     <p>Logging date:</p>
-        <input type="date">
+        <input type="date" [(ngModel)]="date">
     <p>Distance:</p>
-        <input type="number ">
-    <p>Time:<p>
-      <p>  <input type="time"> </p>
+        <input type="number" [(ngModel)] = "number" >
+    <p>Time:</p>
+      <p>  <input type="time" [(ngModel)] = "time"> </p>
 
     <button> Save </button>
-</div>
 
-<table>
-    <thead>
-        <tr>
-            
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let item of users">
-            <td>{{item.date}}</td>
-            <td>{{item.distance}}</td>
-            <td>{{item.time}}</td>
-        </tr>
-    </tbody>
-</table>
+    <p>Date: {{date}} </p>
+     <p>Distance: {{number}} </p>  
+     <p> Time: {{time}}  </p>
+   
+</div>

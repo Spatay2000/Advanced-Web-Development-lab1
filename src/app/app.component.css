@@ -1,5 +1,14 @@
-.block1{
+div{
     position: relative; 
-    top: -338px; 
+    top: -430px; 
     left: 370px;    
+}
+header{
+    background: gray;
+    padding-top: 5px;
+}
+
+footer{
+    background: gray; 
+    padding: 5px 0
 }
